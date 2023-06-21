@@ -1,9 +1,11 @@
 # Wordcount Using Hadoop and Java 
+
 # Introduction
 ReadMe ini menyediakan penjelasan mengenai wordcount yang dijalankan pada dua software yaitu hadoop dan java. Kemudian, akan dibandingkan hasil runtime dari keduanya dan dari hasil eksperimen tersebut maka akan ditarik kesimpulan sesuai dengan hasil yang didapat. 
 
 # Hadoop 
-jelasin apa itu hadoop, metode word count nya gimana, instalasi nya gimana, how to use hadoop 
+Hadoop adalah software open-source yang digunakan untuk menyimpan dan memproses data yang sangat besar di cluster komputer terdistribusi. Hadoop terdiri dari dua komponen utama yaitu Hadoop Distributed File System (HDFS) dan MapReduce. HDFS adalah sistem file terdistribusi yang dirancang untuk menyimpan data di berbagai node dalam sebuah cluster. Sedangkan MapReduce adalah model pemrograman yang digunakan untuk memproses data secara paralel di atas HDFS. 
+
 # Java 
 jelasin apa itu java, metode wordcount nya gimana, kode nya apa 
 # Java vs Hadoop 
@@ -74,22 +76,24 @@ public class FileCounter {
 }
 
 ```
-Kita akan mengubah setiap file input dengan nama dan directory file yang kita gunakan. 
+Dari kode tersebut, kita hanya perlu mengubah nama file sesuai dengan yang ingin diuji. 
 
 # Comparation
 ### Running Time Table 
 
-| Data (MB) |         Time          |
-|           | Hadoop   |   Java     |
+|     Data (MB)      | Hadoop   |   Java     |
 |---------- |----------|------------|
-|   1       |    14    |    0.198   |
-|   10      |    25    |    0.567   |
-|   100     |    26    |    1.389   |
-|   1000    |    69    |    9.77    |
+|   1       |    14    |    0.208   |
+|   10      |    25    |    0.409   |
+|   100     |    26    |    2.075   |
+|   1000    |    69    |    28.359  |
 |   5000    |    296   |    120     |
 |   10.000  |    831   |    213     |
 
-### Graph 
 
+### Graph 
+Berikut grafik yang dibuat berdasarkan data percobaan yang telah dilakuakn : 
+![Hadoop (S) and Java (S) ](https://github.com/Chokode/HadoopWordCount_K2/assets/88542494/736e204a-e9df-4b99-aaca-252b30e277fa)
 
 # Kesimpulan 
+Java lebih cepat daripada hadoop
