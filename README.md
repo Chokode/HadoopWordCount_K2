@@ -1,4 +1,10 @@
 # Wordcount Using Hadoop and Java 
+Kelompok 2
+- Eldisja Hadasa - 2106640133
+- Handaneswari Pramudhyta Imanda - 2106731346
+- Syauqi Auliya Muhammad - 2106707201
+- Muhammad Aqil Muzakky - 2106731604
+</br>
 
 # Introduction
 ReadMe ini menyediakan penjelasan mengenai wordcount yang dijalankan pada dua software yaitu hadoop dan java. Kemudian, akan dibandingkan hasil runtime dari keduanya dan dari hasil eksperimen tersebut maka akan ditarik kesimpulan sesuai dengan hasil yang didapat. 
@@ -7,9 +13,18 @@ ReadMe ini menyediakan penjelasan mengenai wordcount yang dijalankan pada dua so
 Hadoop adalah software open-source yang digunakan untuk menyimpan dan memproses data yang sangat besar di cluster komputer terdistribusi. Hadoop terdiri dari dua komponen utama yaitu Hadoop Distributed File System (HDFS) dan MapReduce. HDFS adalah sistem file terdistribusi yang dirancang untuk menyimpan data di berbagai node dalam sebuah cluster. Sedangkan MapReduce adalah model pemrograman yang digunakan untuk memproses data secara paralel di atas HDFS. 
 
 # Java 
-jelasin apa itu java, metode wordcount nya gimana, kode nya apa 
+Java adalah bahasa pemrograman dengan pendekatan WORA "write once, run everywhere" yang menyebabkan bahasa ini bersifat platform independen. Selain itu, java memiliki memori yang terkelola dengan baik, karena alokasi dan dealokasi memori dilakukan secara otomatis. Pada perbandingan kali ini, wordcount dilakukan dengan looping pada program. Berikut ini langkah-langkah looping untuk wordcount. <br>
+1. Menghitung banyaknya baris pada file.
+2. Memecah setiap baris yang ada menjadi banyak kata.
+3. Menghitung banyaknya kata pada setiap baris.
+4. Menghitung banyaknya karakter pada sebuah kata.
+5. Mengulangi dari langkah 2 sampai semua kata selesai dihitung.<br>
+
+Setelah wordcount selesai dilakukan, runningtime dari program dihitung dengan cara mengurangi waktu dimulainya program dengan waktu selesainya program.
+
+
 # Java vs Hadoop 
-jelasin gimana in theory java vs hadoop 
+Java berfokus pada pengembangan aplikasi yang portabel, skalabel, dan mudah dipelihara. Karena karakteristiknya yang bersifat platform independen, Java dapat digunakan untuk mengembangkan berbagai jenis aplikasi, contohnya aplikasi desktop, web, mobile, dan game. Sedangkan, Hadoop berfokus pada pemrosesan data terdistribusi yang scalable dan efisien. Hal ini dikarenakan Hadoop dirancang khusus untuk memproses dan menganalisis data dengan volume besar dan kompleks. <br>
 # Experiment 
 Percobaan digunakan menggunakan 6 dataset dengan size sebagai berikut: 
 - file 1 : 1 MB 
@@ -17,7 +32,8 @@ Percobaan digunakan menggunakan 6 dataset dengan size sebagai berikut:
 - file 3 : 100 MB 
 - file 4 : 1000 MB 
 - file 5 : 5000 MB 
-- file 6 : 10.000 MB 
+- file 6 : 10.000 MB <br>
+
 Untuk mendapatkan file tersbut, digunakan aplikasi DontRunItWillOverloadTxt. Aplikasi tersebut dapat membuat text file sesuai ukuran yang kita inginkan. 
 ### Eksperimen Hadoop
 Pertama-tama, kita harus memastikan bahwa file-file yang akan digunakan untuk eksperimen sudah berada pada folder yang benar. Berikut contoh directory dari salah satu file yang akan digunakan dalam eksperimen ini: 
@@ -96,4 +112,4 @@ Berikut grafik yang dibuat berdasarkan data percobaan yang telah dilakuakn :
 ![Hadoop (S) and Java (S) ](https://github.com/Chokode/HadoopWordCount_K2/assets/88542494/736e204a-e9df-4b99-aaca-252b30e277fa)
 
 # Kesimpulan 
-Java lebih cepat daripada hadoop
+Pada kasus kali ini, wordcount lebih cepat dilakukan oleh Java daripada Hadoop. Hal ini disebabkan oleh overhead konfigurasi pada Hadoop yang disebabkan ukuran file dianggap relatif kecil oleh Hadoop. Sehingga, overhead untuk inisialisasi dan penjadwalan task MapReduce pada Hadoop lebih terasa serta membuat peforma Hadoop lebih lambat dibandingkan dengan Kava yang menggunakan pendekatan sekuen.
