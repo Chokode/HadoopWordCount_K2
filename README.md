@@ -13,7 +13,8 @@ ReadMe ini menyediakan penjelasan mengenai wordcount yang dijalankan pada dua so
 Hadoop adalah software open-source yang digunakan untuk menyimpan dan memproses data yang sangat besar di cluster komputer terdistribusi. Hadoop terdiri dari dua komponen utama yaitu Hadoop Distributed File System (HDFS) dan MapReduce. HDFS adalah sistem file terdistribusi yang dirancang untuk menyimpan data di berbagai node dalam sebuah cluster. Sedangkan MapReduce adalah model pemrograman yang digunakan untuk memproses data secara paralel di atas HDFS. 
 
 # Java 
-Java adalah bahasa pemrograman dengan pendekatan WORA "write once, run everywhere" yang menyebabkan bahasa ini bersifat platform independen. Selain itu, java memiliki memori yang terkelola dengan baik, karena alokasi dan dealokasi memori dilakukan secara otomatis. Pada perbandingan kali ini, wordcount dilakukan dengan looping pada program.<br> Berikut ini langkah-langkah looping untuk wordcount pada Java. <br>
+Java adalah bahasa pemrograman dengan pendekatan WORA "write once, run everywhere" yang menyebabkan bahasa ini bersifat platform independen. Selain itu, java memiliki memori yang terkelola dengan baik, karena alokasi dan dealokasi memori dilakukan secara otomatis. Pada perbandingan kali ini, wordcount dilakukan dengan looping pada program.<br> 
+Berikut ini langkah-langkah looping untuk wordcount pada Java. <br>
 1. Menghitung banyaknya baris pada file.
 2. Memecah setiap baris yang ada menjadi banyak kata.
 3. Menghitung banyaknya kata pada setiap baris.
@@ -111,5 +112,10 @@ Dari kode tersebut, kita hanya perlu mengubah nama file sesuai dengan yang ingin
 Berikut grafik yang dibuat berdasarkan data percobaan yang telah dilakuakn : 
 ![Hadoop (S) and Java (S) ](https://github.com/Chokode/HadoopWordCount_K2/assets/88542494/736e204a-e9df-4b99-aaca-252b30e277fa)
 
+# Analisa
+Dari hasil yang didapatkan dapat dilihat peforma runtime Java jauh lebih cepat daripada Hadoop. Hal ini dikarenakan hadoop selalu menginisialisasi cluster, penjadwalan tugas, dan overhead komunikasi antar node. Sehingga, terjadi delay yang signifikan pada runtime relatif terhadap ukuran data yang sebenarnya. Mekanisme penyimpanan dan pembagian hadoop yang mengharuskan data  dipartisi dan didistribusikan di antara beberapa node juga menyebabkan overhead dan memperlambat runtime program.
+
+Berbeda dengan hadoop, Java memiliki pendekatan sekuensial dalam eksekusi kode. Pemrosesan sekuensial adalah pemrosesan data secara berurutan, tanpa overhead tambahan yang terkait dengan pemrosesan data terdistribusi. Oleh karena itu, wordcount pada kasus ini lebih cepat menggunakan Java karena file-file yang digunakan ukurannya relatif kecil untuk diproses dengan Hadoop.
+
 # Kesimpulan 
-Pada kasus kali ini, wordcount lebih cepat dilakukan oleh Java daripada Hadoop. Hal ini disebabkan oleh overhead konfigurasi pada Hadoop yang disebabkan ukuran file dianggap relatif kecil oleh Hadoop. Sehingga, overhead untuk inisialisasi dan penjadwalan task MapReduce pada Hadoop lebih terasa serta membuat peforma Hadoop lebih lambat dibandingkan dengan Kava yang menggunakan pendekatan sekuen.
+Pada kasus kali ini, wordcount lebih cepat dilakukan oleh Java daripada Hadoop. Hal ini disebabkan oleh overhead konfigurasi pada Hadoop yang disebabkan ukuran file dianggap relatif kecil oleh Hadoop. Sehingga, overhead untuk inisialisasi dan penjadwalan task MapReduce pada Hadoop lebih terasa serta membuat peforma Hadoop lebih lambat dibandingkan dengan Java yang menggunakan pendekatan sekuensial.
