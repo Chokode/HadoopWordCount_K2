@@ -13,7 +13,7 @@ ReadMe ini menyediakan penjelasan mengenai wordcount yang dijalankan pada dua so
 Hadoop adalah software open-source yang digunakan untuk menyimpan dan memproses data yang sangat besar di cluster komputer terdistribusi. Hadoop terdiri dari dua komponen utama yaitu Hadoop Distributed File System (HDFS) dan MapReduce. HDFS adalah sistem file terdistribusi yang dirancang untuk menyimpan data di berbagai node dalam sebuah cluster. Sedangkan MapReduce adalah model pemrograman yang digunakan untuk memproses data secara paralel di atas HDFS. 
 
 # Java 
-Java adalah bahasa pemrograman dengan pendekatan WORA "write once, run everywhere" yang menyebabkan bahasa ini bersifat platform independen. Selain itu, java memiliki memori yang terkelola dengan baik, karena alokasi dan dealokasi memori dilakukan secara otomatis. Pada perbandingan kali ini, wordcount dilakukan dengan looping pada program. Berikut ini langkah-langkah looping untuk wordcount. <br>
+Java adalah bahasa pemrograman dengan pendekatan WORA "write once, run everywhere" yang menyebabkan bahasa ini bersifat platform independen. Selain itu, java memiliki memori yang terkelola dengan baik, karena alokasi dan dealokasi memori dilakukan secara otomatis. Pada perbandingan kali ini, wordcount dilakukan dengan looping pada program.<br> Berikut ini langkah-langkah looping untuk wordcount pada Java. <br>
 1. Menghitung banyaknya baris pada file.
 2. Memecah setiap baris yang ada menjadi banyak kata.
 3. Menghitung banyaknya kata pada setiap baris.
