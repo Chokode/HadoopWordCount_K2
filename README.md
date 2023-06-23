@@ -26,6 +26,15 @@ Setelah wordcount selesai dilakukan, runningtime dari program dihitung dengan ca
 
 # Java vs Hadoop 
 Java berfokus pada pengembangan aplikasi yang portabel, skalabel, dan mudah dipelihara. Karena karakteristiknya yang bersifat platform independen, Java dapat digunakan untuk mengembangkan berbagai jenis aplikasi, contohnya aplikasi desktop, web, mobile, dan game. Sedangkan, Hadoop berfokus pada pemrosesan data terdistribusi yang scalable dan efisien. Hal ini dikarenakan Hadoop dirancang khusus untuk memproses dan menganalisis data dengan volume besar dan kompleks. <br>
+
+# Tahapan Instalasi Hadoop
+Hadoop merupakan pertama
+1. Tahap 1
+2. Tahap 2
+3. Tahap 3
+4. Tahap 4
+5. Taha[ 5
+
 # Experiment 
 Percobaan digunakan menggunakan 6 dataset dengan size sebagai berikut: 
 - file 1 : 1 MB 
