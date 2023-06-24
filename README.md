@@ -38,6 +38,24 @@ Hadoop merupakan pertama
 3. Mendisplay files dalam directory hadoop yang telah didownload
 <img width="598" alt="Screenshot 2023-06-24 at 23 12 32" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/07ddb7be-4447-4853-9d6e-9bf1c221f676">
 
+4. Mengimport JavaHome sesuai dengan pathway JavaVirtualMachine dalam file hadoop-env.sh
+<img width="543" alt="Screenshot 2023-06-24 at 23 17 00" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/2be749fd-8a6e-45a0-8e29-074d0b8a3ec9">
+
+5. Mengubah konfigurasi core file core-site.xml
+<img width="566" alt="Screenshot 2023-06-24 at 23 20 55" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/0738d923-592f-4cf7-b2a2-2ce2168fbf9d">
+
+6. Mengubah konfigurasi core file hdfs-site.xml
+<img width="607" alt="Screenshot 2023-06-24 at 23 21 18" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/97c1c5ab-1754-4bfe-a2c5-689adf81f057">
+
+7. Mengubah konfigurasi core file mapred-site.xml
+<img width="593" alt="Screenshot 2023-06-24 at 23 22 15" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/d5e30f8e-4952-4521-a6d5-a8aaecbaf17f">
+
+8. Mengubah konfigurasi core file yarn-site.xml
+<img width="758" alt="Screenshot 2023-06-24 at 23 22 56" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/38bd9b9a-bf0b-45cf-b8be-cfe91f178a43">
+
+
+
+
 
 # Experiment 
 Percobaan digunakan menggunakan 6 dataset dengan size sebagai berikut: 
