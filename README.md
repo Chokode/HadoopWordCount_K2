@@ -31,9 +31,11 @@ Java berfokus pada pengembangan aplikasi yang portabel, skalabel, dan mudah dipe
 Hadoop merupakan pertama
 1. Membuka terminal dan menginstall hadoop menggunakan homebrew 
 <img width="571" alt="Screenshot 2023-06-24 at 23 07 31" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/cb7759c2-5fc6-40b6-b56e-7200a7dee4ec">
+
 2. Mencari pathway meuju JavaVirtualMachine
  <img width="554" alt="Screenshot 2023-06-24 at 23 08 47" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/b229bfb5-57eb-4f26-826a-2fb5a701207e">
 
+3. 
 
 # Experiment 
 Percobaan digunakan menggunakan 6 dataset dengan size sebagai berikut: 
