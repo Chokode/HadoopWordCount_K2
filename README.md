@@ -53,8 +53,24 @@ Hadoop merupakan pertama
 8. Mengubah konfigurasi core file yarn-site.xml
 <img width="758" alt="Screenshot 2023-06-24 at 23 22 56" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/38bd9b9a-bf0b-45cf-b8be-cfe91f178a43">
 
-9. 
+9. Execute command hadoop namenode -format
+<img width="424" alt="Screenshot 2023-06-24 at 23 39 29" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/26c7d58b-1523-4e7f-b367-0083ddd332c7">
 
+10. Generate new keygen
+<img width="236" alt="Screenshot 2023-06-24 at 23 40 09" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/629e387c-4fb0-4d9c-b8bd-c8d03f7d99de">
+
+11. Register new keygen
+<img width="333" alt="Screenshot 2023-06-24 at 23 40 37" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/1eb04457-d26a-4172-a1ec-553a7a5f0dc1">
+
+12. Execute command start-all.sh
+<img width="349" alt="Screenshot 2023-06-24 at 23 41 53" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/447c554a-f375-475a-bbba-ed08ce624b33">
+
+13. Terlihat semua node yang aktif
+<img width="184" alt="Screenshot 2023-06-24 at 23 42 14" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/03ffae39-e112-41a2-b124-a1c9246be06c">
+
+
+14. Membuat directory baru menggunakan -mkdir untuk hadoop
+<img width="513" alt="Screenshot 2023-06-24 at 23 42 56" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/2051897b-2aad-4c83-8f2b-26647bc2d5a9">
 
 
 # Experiment 
