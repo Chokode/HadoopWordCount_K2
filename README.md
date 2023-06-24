@@ -53,7 +53,7 @@ Hadoop merupakan pertama
 8. Mengubah konfigurasi core file yarn-site.xml
 <img width="758" alt="Screenshot 2023-06-24 at 23 22 56" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/38bd9b9a-bf0b-45cf-b8be-cfe91f178a43">
 
-
+9. 
 
 
 
