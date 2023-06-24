@@ -29,11 +29,8 @@ Java berfokus pada pengembangan aplikasi yang portabel, skalabel, dan mudah dipe
 
 # Tahapan Instalasi Hadoop
 Hadoop merupakan pertama
-1. Tahap 1
-2. Tahap 2
-3. Tahap 3
-4. Tahap 4
-5. Taha[ 5
+1. Membuka terminal dan menginstall hadoop menggunakan homebrew 
+<img width="571" alt="Screenshot 2023-06-24 at 23 07 31" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/cb7759c2-5fc6-40b6-b56e-7200a7dee4ec">
 
 # Experiment 
 Percobaan digunakan menggunakan 6 dataset dengan size sebagai berikut: 
