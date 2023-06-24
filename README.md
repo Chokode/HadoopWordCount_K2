@@ -35,7 +35,9 @@ Hadoop merupakan pertama
 2. Mencari pathway meuju JavaVirtualMachine
  <img width="554" alt="Screenshot 2023-06-24 at 23 08 47" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/b229bfb5-57eb-4f26-826a-2fb5a701207e">
 
-3. 
+3. Mendisplay files dalam directory hadoop yang telah didownload
+<img width="598" alt="Screenshot 2023-06-24 at 23 12 32" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/07ddb7be-4447-4853-9d6e-9bf1c221f676">
+
 
 # Experiment 
 Percobaan digunakan menggunakan 6 dataset dengan size sebagai berikut: 
