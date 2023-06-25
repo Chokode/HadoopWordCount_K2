@@ -27,8 +27,8 @@ Setelah wordcount selesai dilakukan, runningtime dari program dihitung dengan ca
 # Java vs Hadoop 
 Java berfokus pada pengembangan aplikasi yang portabel, skalabel, dan mudah dipelihara. Karena karakteristiknya yang bersifat platform independen, Java dapat digunakan untuk mengembangkan berbagai jenis aplikasi, contohnya aplikasi desktop, web, mobile, dan game. Sedangkan, Hadoop berfokus pada pemrosesan data terdistribusi yang scalable dan efisien. Hal ini dikarenakan Hadoop dirancang khusus untuk memproses dan menganalisis data dengan volume besar dan kompleks. <br>
 
-# Tahapan Instalasi Hadoop
-Hadoop merupakan pertama
+# Install Hadoop
+Berikut ini adalah langkah-langkah dalam menginstall Hadoop.
 1. Membuka terminal dan menginstall hadoop menggunakan homebrew 
 <img width="571" alt="Screenshot 2023-06-24 at 23 07 31" src="https://github.com/Chokode/HadoopWordCount_K2/assets/134858335/cb7759c2-5fc6-40b6-b56e-7200a7dee4ec">
 
